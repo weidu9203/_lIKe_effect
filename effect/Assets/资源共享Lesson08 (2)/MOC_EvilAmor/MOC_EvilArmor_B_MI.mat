@@ -1,0 +1,5 @@
+Diffuse=MOC_EvilAmor_B_DIFF
+Normal=MOC_EvilArmor_NORM
+Other[0]=MOC_EvilArmor_MC
+Other[1]=BaseNormal_TEX
+Other[2]=DefaultBaseColor_TEX

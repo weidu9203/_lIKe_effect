@@ -1,0 +1,4 @@
+Diffuse=MOC_EvilArmor_DIFF
+Normal=MOC_EvilArmor_NORM
+Other[0]=ReflectionBump_NM
+Other[1]=MOC_EvilArmor_WingEffect_TEX
