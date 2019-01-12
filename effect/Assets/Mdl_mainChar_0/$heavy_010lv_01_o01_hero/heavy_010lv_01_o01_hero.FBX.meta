@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 6c435b74ec3809647a6a46ba72f1e5d2
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: b_muffler_bone01
     100002: b_tail_Bone01
@@ -293,18 +293,77 @@ ModelImporter:
     13700004: lower
     13700006: upper
     13700008: upperback
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: f891dc27e1c0bd64fb2c9850aac3c6ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heavy_010lv_01_o01_hero_feet
+    second: {fileID: 2100000, guid: 2f36f8fef59a7844aa79bbd49197dda8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heavy_010lv_01_o01_hero_hands
+    second: {fileID: 2100000, guid: 2a52de0bff1b0fd4385d7c8ee527307a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heavy_010lv_01_o01_hero_head
+    second: {fileID: 2100000, guid: e4d7051db592bdf4ea69f61e4e48a0ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heavy_010lv_01_o01_hero_head_hair
+    second: {fileID: 2100000, guid: 56c9de008d83d27418fd80bf0d755d52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heavy_010lv_01_o01_hero_lower
+    second: {fileID: 2100000, guid: 1c9a8db20b835d242b5c25a004ec4a29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heavy_010lv_01_o01_hero_upper
+    second: {fileID: 2100000, guid: dab6539a9f07fd04492d4247964ec78c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: heavy_010lv_01_o01_upperback
+    second: {fileID: 2100000, guid: b0ea42ec519d2a8419b68ee3d7b478c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hero_head_01
+    second: {fileID: 2100000, guid: 86fcd85123fdb6f4c89e95730d388a41, type: 2}
   materials:
     importMaterials: 1
     materialName: 1
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -312,36 +371,50 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
-    handles: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
   additionalBone: 1
-  animationType: 1
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
