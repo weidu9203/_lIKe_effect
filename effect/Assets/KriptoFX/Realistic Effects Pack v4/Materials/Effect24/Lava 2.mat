@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Lava 1
+  m_Name: Lava 2
   m_Shader: {fileID: 4800000, guid: e506dad9c4d927547944ffdd4a8ad939, type: 3}
   m_ShaderKeywords: BlendAlpha Clip_OFF FrameBlend_OFF SoftParticles_ON VertLight_OFF
     _EMISSION
