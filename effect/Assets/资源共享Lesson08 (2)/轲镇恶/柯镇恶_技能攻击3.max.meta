@@ -96,6 +96,22 @@ ModelImporter:
     100176: "\xD7\xFE\xD7\xFC"
     100178: "\u67EF\u9547\u6076"
     100180: //RootNode
+    100182: Bone030
+    100184: Bone031
+    100186: Bone032
+    100188: Bone033
+    100190: Bone034
+    100192: Bone035
+    100194: Bone036
+    100196: Bone037
+    100198: Bone038
+    100200: Bone039
+    100202: Bone040
+    100204: Bone041
+    100206: Bone042
+    100208: Line001
+    100210: Plane001
+    100212: Plane003
     400000: 000
     400002: Bip01
     400004: Bip01 Footsteps
@@ -187,13 +203,34 @@ ModelImporter:
     400176: "\xD7\xFE\xD7\xFC"
     400178: "\u67EF\u9547\u6076"
     400180: //RootNode
+    400182: Bone030
+    400184: Bone031
+    400186: Bone032
+    400188: Bone033
+    400190: Bone034
+    400192: Bone035
+    400194: Bone036
+    400196: Bone037
+    400198: Bone038
+    400200: Bone039
+    400202: Bone040
+    400204: Bone041
+    400206: Bone042
+    400208: Line001
+    400210: Plane001
+    400212: Plane003
     2100000: "\u67EF\u9547\u6076\u8EAB\u4F53"
     2100002: "\u67EF\u9547\u6076\u6BDB\u53D1"
     2100004: "\u67EF\u9547\u6076\u6B66\u5668"
+    2100006: No Name
     4300000: "\u67EF\u9547\u6076"
+    4300002: Plane001
+    4300004: Plane003
     7400000: Take 001
     9500000: //RootNode
     13700000: "\u67EF\u9547\u6076"
+    13700002: Plane001
+    13700004: Plane003
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -220,11 +257,39 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 3
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
