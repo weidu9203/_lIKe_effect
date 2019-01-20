@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: No Name
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 8ef4d5815d2bdca4ebddfd2ea1415ef8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -34,12 +34,28 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DiffuseTexture:
+        m_Texture: {fileID: 2800000, guid: 205e82b0050291242b31a3b924d19038, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -1.99, y: 0.22}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmissiveMask:
+        m_Texture: {fileID: 2800000, guid: 3aff0267b8f8ade40ad7cce7a404e5a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissvie:
+        m_Texture: {fileID: 2800000, guid: 15738ae7c43cad145ad5c4c339cb4011, type: 3}
+        m_Scale: {x: 1, y: 1.36}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0f3e0364126e2d047a0d2fdb6e929d05, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 2800000, guid: 8bbf4acd3a0aa4644b69d57d2e3a2fdb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -54,16 +70,46 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _T_mask:
+        m_Texture: {fileID: 2800000, guid: 8bbf4acd3a0aa4644b69d57d2e3a2fdb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - __NiuQu:
+        m_Texture: {fileID: 2800000, guid: 3aff0267b8f8ade40ad7cce7a404e5a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: 50295672dec17944ca9df4859ace1eb2, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0.2}
+    - _node_7915:
+        m_Texture: {fileID: 2800000, guid: 8005d8fe54f7c85499295aab34056d93, type: 3}
+        m_Scale: {x: 1.19, y: 0.74}
+        m_Offset: {x: 0, y: 0}
+    - _rongjie_tex:
+        m_Texture: {fileID: 2800000, guid: 65dfd193616fda94596b629fa1ec1e39, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
+    - _ColorStrength: 0.43
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _EmissiveBrightness: 2.05
+    - _EmissiveContrast: 0.76
+    - _EmissiveMaskUV2: 0
+    - _EmissviePannerX: -1.05
+    - _EmissviePannerY: -0.56
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
+    - _InvFade: 0.72
     - _Metallic: 0
     - _Mode: 0
+    - _N_BY_KD: 2.65
+    - _N_BY_QD: -0.27
+    - _N_mask: -0.17
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
@@ -71,6 +117,16 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - _move: 0
+    - _node_5461: 0
+    - _node_5485: 0
+    - _node_9041: 0
+    - _rongjie: 0
     m_Colors:
+    - _C_BYcolor: {r: 0.007352948, g: 0.38387427, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorAlpha: {r: 0.043522913, g: 0.613266, b: 0.8455882, a: 0.59}
+    - _DiffuseColor: {r: 0.53676474, g: 0.122160256, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 0.19117647, g: 0.6653142, b: 1, a: 1}
+    - _color: {r: 0.9264706, g: 0.43598613, b: 0.43598613, a: 1}
