@@ -83,6 +83,6 @@ Material:
     - _node_3426: 0
     - _node_3953: 0
     m_Colors:
-    - _Clore: {r: 0.82069016, g: 0, b: 1, a: 1}
+    - _Clore: {r: 1, g: 0.5172414, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

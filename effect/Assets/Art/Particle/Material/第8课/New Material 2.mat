@@ -79,4 +79,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _node_996: {r: 1, g: 0.36490873, b: 0.25735295, a: 1}
+    - _node_996: {r: 0.39705884, g: 0, b: 0, a: 1}
