@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c2dc5ec386d349446866b4bfdc6ce539
+timeCreated: 1478329300
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _Emissvie: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+  - _DissolveTex: {fileID: 2800000, guid: 41bf95033b5429e44a6088435ed14372, type: 3}
+  - _UVEffectTex: {fileID: 2800000, guid: e2b6f0cb630b8724390e4b1f6450aca0, type: 3}
+  - _UVEffectTex_01: {fileID: 2800000, guid: e2b6f0cb630b8724390e4b1f6450aca0, type: 3}
+  - _Emissvie_AddTex: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
