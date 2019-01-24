@@ -93,7 +93,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Edge_Color: {r: 1.5, g: 0.786004, b: 0.32352948, a: 1}
+    - _Edge_Color: {r: 1.5, g: 0.786004, b: 0.32352948, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Main_Color: {r: 0.42209557, g: 1.0705725, b: 1.335, a: 1}
-    - _TintColor: {r: 1.0352942, g: 0.23561864, b: 0, a: 1}
+    - _TintColor: {r: 1.0352942, g: 0.2356187, b: 0, a: 1}
