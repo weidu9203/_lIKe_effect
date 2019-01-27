@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: baozha_xuanzhuan_03
-  m_Shader: {fileID: 4800000, guid: f4723d5f9ebb1bf428f491bdefe93bf1, type: 3}
-  m_ShaderKeywords: 
+  m_Name: baozha_xuanzhuan_04
+  m_Shader: {fileID: 4800000, guid: 50609c7cf7955e44a80a9d58099d5657, type: 3}
+  m_ShaderKeywords: BlendAdd Clip_OFF FrameBlend_OFF SoftParticles_ON VertLight_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -39,8 +39,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 63d65fdd7aa0519408dafca594726e6c, type: 3}
-        m_Scale: {x: 1.96, y: 1}
+        m_Texture: {fileID: 2800000, guid: 594e053314f5e114180add9d9145f469, type: 3}
+        m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -58,13 +58,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: 63d65fdd7aa0519408dafca594726e6c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 594e053314f5e114180add9d9145f469, type: 3}
         m_Scale: {x: 2.12, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - DstMode: 1
+    - SrcMode: 5
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _Cutout: 0.2
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
@@ -86,4 +93,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Colore: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TintColor: {r: 0.6691177, g: 0.6691177, b: 0.6691177, a: 0.5}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _Tiling: {r: 800, g: 800, b: 8, a: 8}
+    - _TintColor: {r: 0.7941176, g: 0.7941176, b: 0.7941176, a: 0.348}
